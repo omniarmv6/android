@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="xda"
-           fetch=".." />
-
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch=".."
+           review="review.androidarmv6.org" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
   <remote  name="omnirom"
-           review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
   <default revision="refs/tags/android-4.4.2_r1"
@@ -23,7 +20,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="omnirom" revision="android-4.4" />
+  <project path="android" name="omniarmv6/android" remote="github" revision="android-4.4" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
