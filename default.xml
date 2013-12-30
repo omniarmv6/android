@@ -10,7 +10,7 @@
            review="android-review.googlesource.com" />
 
   <remote  name="omnirom"
-           fetch="https://github.com/omnirom" />
+           fetch="git://github.com/omnirom" />
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
