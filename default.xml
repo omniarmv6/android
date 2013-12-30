@@ -449,10 +449,9 @@
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
 
 <!-- TEMP: omni/roomservice can't fetch external repos ???? -->
-
   <project path="device/lge/p500" name="omniarmv6/android_device_lge_p500" remote="github" revision="android-4.4" />
-  <project path="device/lge/msm7x27-common" name="androidarmv6/android_device_lge_msm7x27-common" remote="github" revision="cm-11.0" />
-  <project path="vendor/lge" name="androidarmv6/android_vendor_lge" remote="github" revision="cm-11.0" />
+  <project path="device/lge/msm7x27-common" name="omniarmv6/android_device_lge_msm7x27-common" remote="github" revision="android-4.4" />
+  <project path="vendor/lge" name="omniarmv6/android_vendor_lge" remote="github" revision="android-4.4" />
   <project path="kernel/lge/msm7x27-3.0.x" name="androidarmv6/android_kernel_lge_msm7x27-3.0.x" remote="github" revision="cm-11.0" />
 
 </manifest>
