@@ -12,6 +12,9 @@
   <remote  name="omnirom"
            fetch="git://github.com/omnirom" />
 
+  <remote  name="androidarmv6"
+           fetch="git://github.com/androidarmv6" />
+
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -24,12 +27,12 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-4.4" />
-  <project path="bionic" name="androidarmv6/android_bionic" remote="github" revision="cm-11.0" />
+  <project path="bionic" name="android_bionic" remote="androidarmv6" revision="cm-11.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4"/>
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="androidarmv6/android_dalvik" remote="github" revision="cm-11.0" />
+  <project path="dalvik" name="android_dalvik" remote="androidarmv6" revision="cm-11.0" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -46,8 +49,8 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/mdpi-common" name="androidarmv6/android_device_mdpi-common" remote="github" revision="cm-11.0" />
-  <project path="device/ldpi-common" name="androidarmv6/android_device_ldpi-common" remote="github" revision="cm-11.0" />
+  <project path="device/mdpi-common" name="android_device_mdpi-common" remote="androidarmv6" revision="cm-11.0" />
+  <project path="device/ldpi-common" name="android_device_ldpi-common" remote="androidarmv6" revision="cm-11.0" />
   <project path="device/qcom/msm7x27" name="omniarmv6/android_device_qcom_msm7x27" remote="github" revision="android-4.4" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -173,7 +176,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="androidarmv6/android_external_llvm" remote="github" revision="cm-11.0" />
+  <project path="external/llvm" name="android_external_llvm" remote="androidarmv6" revision="cm-11.0" />
   <project path="external/lzma" name="platform/external/lzma" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -214,13 +217,13 @@
   <project path="external/sepolicy" name="android_external_sepolicy" remote="omnirom" revision="android-4.4" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="androidarmv6/android_external_skia" remote="github" revision="cm-11.0" />
+  <project path="external/skia" name="android_external_skia" remote="androidarmv6" revision="cm-11.0" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
-  <project path="external/srec" name="androidarmv6/android_external_srec" remote="github" revision="cm-11.0" />
+  <project path="external/srec" name="android_external_srec" remote="androidarmv6" revision="cm-11.0" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" />
@@ -238,7 +241,7 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" remote="github" revision="cm-11.0" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
@@ -283,9 +286,9 @@
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-4.4" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="androidarmv6" revision="cm-11.0" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media-legacy" name="androidarmv6/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="androidarmv6" revision="cm-11.0" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="omnirom" revision="android-4.4" />
@@ -352,7 +355,7 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="androidarmv6/android_packages_inputmethods_LatinIME" remote="github" revision="cm-11.0" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="androidarmv6" revision="cm-11.0" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -443,15 +446,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/google" name="androidarmv6/android_vendor_google" remote="github" revision="cm-11.0" />
+  <project path="vendor/google" name="android_vendor_google" remote="androidarmv6" revision="cm-11.0" />
   <project path="vendor/omni" name="omniarmv6/android_vendor_omni" remote="github" revision="android-4.4" />
   <project path="vendor/qcom/msm7x27" name="omniarmv6/android_vendor_qcom_msm7x27" remote="github" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
-
-<!-- TEMP: omni/roomservice can't fetch external repos ???? -->
-  <project path="device/lge/p500" name="omniarmv6/android_device_lge_p500" remote="github" revision="android-4.4" />
-  <project path="device/lge/msm7x27-common" name="omniarmv6/android_device_lge_msm7x27-common" remote="github" revision="android-4.4" />
-  <project path="vendor/lge" name="omniarmv6/android_vendor_lge" remote="github" revision="android-4.4" />
-  <project path="kernel/lge/msm7x27-3.0.x" name="androidarmv6/android_kernel_lge_msm7x27-3.0.x" remote="github" revision="cm-11.0" />
-
 </manifest>
