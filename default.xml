@@ -30,7 +30,7 @@
   <project path="bionic" name="android_bionic" remote="androidarmv6" revision="cm-11.0" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-4.4"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="87af56369b8eaeb1edc671cdefee2cdae7b2b43c" upstream="refs/heads/android-4.4" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="android_dalvik" remote="androidarmv6" revision="cm-11.0" />
   <project path="developers/build" name="platform/developers/build" />
@@ -242,6 +242,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
+  <project path="external/webkit" name="android_external_webkit" remote="androidarmv6" revision="cm-11.0" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
@@ -252,9 +253,9 @@
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="omniarmv6/android_frameworks_av" remote="github" revision="android-4.4" />
   <project path="frameworks/base" name="omniarmv6/android_frameworks_base" remote="github" revision="android-4.4" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
+  <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
+  <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
@@ -272,7 +273,7 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
@@ -368,7 +369,7 @@
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="omnirom" revision="android-4.4" />
-  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="omnirom" revision="android-4.4" />
+  <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" remote="androidarmv6" revision="cm-11.0" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
   <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" />
