@@ -1,6 +1,6 @@
 Submitting Patches
 ------------------
-We're open source, and patches are always welcome!
+Our ROM is open source, and patches are always welcome!
 You can send patches by using these commands:
 
     cd <project>
@@ -25,7 +25,7 @@ Getting Started
 To get started with OMNIARMv6 ROM, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the OMNI trees, use a command like this:
+To initialize your local repository using the OMNIROM trees, use a command like this:
 
     repo init -u git://github.com/omniarmv6/android.git -b android-4.4
 
@@ -39,5 +39,11 @@ Then to build:
      source build/envsetup.sh
      brunch <device_name>
 
-If you need more information or a more detailed guide, check [Here](http://docs.omnirom.org)
-Our Official IRC Channel: [#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom)  ,  [#omni - DEVS](http://webchat.freenode.net/?channels=omni)
+
+If you need more information or a more detailed guide, click [here to see our wiki.](http://docs.omnirom.org)
+
+Our official IRC Channels are hosted on Freenode:
+
+[#omnirom - USERS](http://webchat.freenode.net/?channels=omnirom/)
+
+[#omni - DEVELOPERS](http://webchat.freenode.net/?channels=omni/)
