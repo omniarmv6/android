@@ -15,6 +15,9 @@
   <remote  name="androidarmv6"
            fetch="git://github.com/androidarmv6" />
 
+  <remote  name="bitbucket-private"
+           fetch="ssh://git@bitbucket.com" />
+
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
            sync-j="4" />
