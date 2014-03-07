@@ -52,8 +52,8 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/mdpi-common" name="android_device_mdpi-common" remote="androidarmv6" revision="cm-11.0" />
-  <project path="device/ldpi-common" name="android_device_ldpi-common" remote="androidarmv6" revision="cm-11.0" />
+  <project path="device/mdpi-common" name="omniarmv6/android_device_mdpi-common" remote="github" revision="android-4.4" />
+  <project path="device/ldpi-common" name="omniarmv6/android_device_ldpi-common" remote="github" revision="android-4.4" />
   <project path="device/qcom/msm7x27" name="omniarmv6/android_device_qcom_msm7x27" remote="github" revision="android-4.4" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
