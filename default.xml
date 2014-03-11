@@ -10,6 +10,7 @@
            review="android-review.googlesource.com" />
 
   <remote  name="omnirom"
+           review="gerrit.omnirom.org"
            fetch="git://github.com/omnirom" />
 
   <remote  name="androidarmv6"
