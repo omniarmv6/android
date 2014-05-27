@@ -21,6 +21,7 @@
 
   <default revision="refs/tags/android-4.4.2_r2"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
 
   <project path="build" name="omniarmv6/android_build" remote="github" revision="android-4.4" groups="pdk" >
