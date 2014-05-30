@@ -78,7 +78,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium" name="android_external_chromium" remote="androidarmv6" revision="cm-11.0" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium_org" name="android_external_chromium-org" remote="omnirom" revision="android-4.4" />
@@ -284,7 +284,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
-  <!-- fix me later --><project path="frameworks/webview" name="platform/frameworks/webview" revision="dcd9911315bc6864b61d1d76ca0ff3904227889b" upstream="refs/heads/kitkat-release"/>
+  <project path="frameworks/webview" name="android_frameworks_webview" remote="androidarmv6" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="omnirom" revision="android-4.4" />
@@ -316,7 +316,7 @@
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omnirom" revision="android-4.4" />
-  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="omnirom" revision="android-4.4" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="androidarmv6" revision="cm-11.0" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="omnirom" revision="android-4.4" />
