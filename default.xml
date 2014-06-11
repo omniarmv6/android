@@ -152,7 +152,7 @@
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
   <project path="external/jdiff" name="platform/external/jdiff" />
-  <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
+  <project path="external/jhead" name="android_external_jhead" remote="omnirom" revision="android-4.4" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
   <project path="external/jpeg" name="android_external_jpeg" remote="omnirom" revision="android-4.4" />
@@ -264,7 +264,7 @@
   <project path="frameworks/compile/libbcc" name="android_frameworks_compile_libbcc" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="android_frameworks_compile_slang" remote="androidarmv6" revision="cm-11.0" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="android_frameworks_ex" remote="omnirom" revision="android-4.4" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="omniarmv6/android_frameworks_native" remote="github" revision="android-4.4" />
